@@ -1,0 +1,7 @@
+module not_gate(a,b);
+input b;
+output a;
+reg c;
+always @(b)
+a = !b;
+endmodule

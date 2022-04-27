@@ -1,0 +1,6 @@
+module HA_gate(s,c,a,b);
+    input a,b;
+    output s,c;
+    HA g1(s,a,b);
+    HA g2(c,a,b);
+endmodule

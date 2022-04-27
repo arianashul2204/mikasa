@@ -1,0 +1,7 @@
+module xor_gate(c,a,b);
+    input a,b;
+    output c;
+    
+    xor g1(c,a,b);
+    
+endmodule
